@@ -1,0 +1,41 @@
+ul {
+    list-style: none;
+  }
+  .city-title {
+    font-size: 30px;
+    color: #08acdd;
+    font-weight: 500;
+    font-family: "Raleway", sans-serif;
+  }
+  .float-left {
+    float: left;
+  }
+  .weather-icon {
+    position: absolute;
+    right: -20px;
+    top: 400px;
+  }
+  .temperature {
+    font-size: 50px;
+    color: black;
+  }
+  .units {
+    position: relative;
+    top: -55px;
+    left: 65px;
+  }
+  .currently {
+    color: #08acdd;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+  }
+  a {
+    color: black;
+  }
+  a:hover {
+    color: #ec6e4c;
+  }
+  .active {
+    color: #ec6e4c;
+  }
+  

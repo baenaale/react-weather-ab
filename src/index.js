@@ -1,17 +1,26 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ReactDOM from "react-dom";
+import Search from "./Search";
+import Current from "./Current";
+import Forecast from "./Forecast";
 
+import "./index.css";
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div className="main-container">
+      <br />
+      <h1>Weather</h1>
+      <br />
+      <Search />
+      <Current />
+      <Forecast />
+    </div>
+    <div className="credits">
+      <a href="https://github.com/baenaale/AB-weatherapp">Open-source code</a>{" "}
+      by Alejandra Baena
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+

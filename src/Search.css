@@ -1,0 +1,40 @@
+.current-button {
+    display: block;
+    border-radius: 4px;
+    color: #08acdd;
+    background-color: #fff;
+    border-color: #08acdd;
+    transition: ease-in-out 200ms;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  .current-button:hover {
+    color: #fff;
+    background-color: #068eb8;
+  }
+  .search {
+    margin-left: 10px;
+  }
+  .search-form {
+    width: 90%;
+    margin: 10px;
+    justify-content: center;
+  }
+  .search-button {
+    border-color: #08acdd;
+    color: #08acdd;
+    padding: 10px;
+    margin: 0 5px;
+  }
+  .search-button:hover {
+    color: #fff;
+    background-color: #068eb8;
+  }
+  .submit {
+    color: #fff;
+    background-color: #08acdd;
+    border-radius: 20px;
+    border-color: #ec6e4c;
+    transition: ease-in-out 200ms;
+  }
+  
