@@ -29,10 +29,10 @@ ul {
     font-weight: 400;
     font-family: "Raleway", sans-serif;
   }
-  a {
+  span {
     color: black;
   }
-  a:hover {
+  span:hover {
     color: #ec6e4c;
   }
   .active {

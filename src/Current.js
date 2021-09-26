@@ -25,13 +25,13 @@ export default function Current() {
                 <strong>90</strong>
               </div>
               <div className="units">
-                <a href="#" id="fahrenheit-link" className="active">
+                <span href="#" id="fahrenheit-link" className="active">
                   °F
-                </a>
+                </span>
                 |
-                <a href="#" id="celsius-link" className="active">
+                <span href="#" id="celsius-link" className="active">
                   °C
-                </a>
+                </span>
               </div>
             </div>
           </div>

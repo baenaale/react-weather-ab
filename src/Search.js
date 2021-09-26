@@ -18,13 +18,13 @@ export default function Search() {
         <button className="btn search-button" type="submit">
           Search
         </button>
-        <a
+        <span
           href="#"
           className="current-button btn text-center btn-outline-success"
           id="current-button"
         >
           📍
-        </a>
+        </span>
       </form>
     </div>
   );
