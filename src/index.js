@@ -16,7 +16,7 @@ ReactDOM.render(
       <Forecast />
     </div>
     <div className="credits">
-      <a href="https://github.com/baenaale/AB-weatherapp">Open-source code</a>{" "}
+      <a href="https://github.com/baenaale/react-weather-ab">Open-source code</a>{" "}
       by Alejandra Baena
     </div>
   </React.StrictMode>,
