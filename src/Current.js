@@ -41,6 +41,7 @@ export default function Current() {
         <img
           src="./media/sun-and-clouds.png"
           id="icon"
+          alt="Cloudy Logo"
           width="100"
           class="img-fluid"
         />
