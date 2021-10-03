@@ -1,26 +1,23 @@
-import React from 'react';
+import React from "react";
 import ReactDOM from "react-dom";
-import 'bootstrap/dist/css/bootstrap.css';
-import Search from "./Search";
+import "bootstrap/dist/css/bootstrap.css";
 import Weather from "./Weather";
-
 
 import "./index.css";
 ReactDOM.render(
   <React.StrictMode>
-    <div className="main-container">
+    <div className="app">
       <br />
       <h1>Weather</h1>
       <br />
-      <Search />
-      <Weather defaultCity="College Station"/>
-    
+      <Weather defaultCity="College Station" />
     </div>
     <footer className="credits">
-      This project was coded by Alejandra Baena and is <a href="https://github.com/baenaale/react-weather-ab">open-sourced on GitHub</a>
+      This project was coded by Alejandra Baena and is{" "}
+      <a href="https://github.com/baenaale/react-weather-ab">
+        open-sourced on GitHub
+      </a>
     </footer>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
-
-

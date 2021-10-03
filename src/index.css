@@ -1,27 +1,31 @@
 body {
-  background-color: #d0f0f7;
+  background: linear-gradient(
+    0deg,
+    rgba(74, 105, 157, 1) 0%,
+    rgba(245, 199, 142, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 h1 {
-  color: #08acdd;
+  color: #4a699d;
   text-align: center;
   margin: 0 auto;
-  padding: 10px;
+  padding: 0px;
   font-family: "Shrikhand", cursive;
   font-size: 60px;
   top: 60px;
   width: 100%;
 }
-.main-container {
-  display: block;
-  margin: 60px auto;
-  max-width: 500px;
-  border: 20px #08acdd;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  background-color: #fff;
+.app {
   border-radius: 30px;
-  border-color: #ec6e4c;
+  background-color: white;
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 550px;
 }
 .credits {
   margin: 60px auto;
   text-align: center;
+  color: white;
 }
