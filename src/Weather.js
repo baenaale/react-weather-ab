@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import axios from "axios";
 import WeatherInfo from "./WeatherInfo";
 import "./Weather.css";
-import Search from "./Search";
 
 export default function Current(props) {
   const [weatherData, setWeatherData] = useState({ready: false });

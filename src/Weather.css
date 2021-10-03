@@ -31,13 +31,5 @@ ul {
     font-weight: 400;
     font-family: "Raleway", sans-serif;
   }
-  span {
-    color: black;
-  }
-  span:hover {
-    color: #ec6e4c;
-  }
-  .active {
-    color: #ec6e4c;
-  }
+  
   
