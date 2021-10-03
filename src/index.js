@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from "react-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 import Search from "./Search";
-import Current from "./Current";
+import Weather from "./Weather";
 
 
 import "./index.css";
@@ -13,7 +13,7 @@ ReactDOM.render(
       <h1>Weather</h1>
       <br />
       <Search />
-      <Current defaultCity="College Station"/>
+      <Weather defaultCity="College Station"/>
     
     </div>
     <footer className="credits">
