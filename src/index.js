@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 import Search from "./Search";
 import Current from "./Current";
-import Forecast from "./Forecast";
+
 
 import "./index.css";
 ReactDOM.render(
@@ -13,13 +13,12 @@ ReactDOM.render(
       <h1>Weather</h1>
       <br />
       <Search />
-      <Current />
-      <Forecast />
+      <Current defaultCity="College Station"/>
+    
     </div>
-    <div className="credits">
-      <a href="https://github.com/baenaale/react-weather-ab">Open-source code</a>{" "}
-      by Alejandra Baena
-    </div>
+    <footer className="credits">
+      This project was coded by Alejandra Baena and is <a href="https://github.com/baenaale/react-weather-ab">open-sourced on GitHub</a>
+    </footer>
   </React.StrictMode>,
   document.getElementById('root')
 );

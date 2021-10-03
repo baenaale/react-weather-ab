@@ -23,6 +23,8 @@ ul {
     position: relative;
     top: -55px;
     left: 65px;
+    line-height: 1;
+    margin: 0px;
   }
   .currently {
     color: #08acdd;
