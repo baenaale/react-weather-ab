@@ -7,9 +7,6 @@ import "./index.css";
 ReactDOM.render(
   <React.StrictMode>
     <div className="app">
-      <br />
-      <h1>Weather</h1>
-      <br />
       <Weather defaultCity="College Station" />
     </div>
     <footer className="credits">
