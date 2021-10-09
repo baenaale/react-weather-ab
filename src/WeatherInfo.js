@@ -15,11 +15,11 @@ export default function WeatherInfo(props) {
           {props.data.description}
         </li>
       </ul>{" "}
-      <div className="row" mt-3>
+      <div className="row">
         <div className="col-6">
           <div className="clearfix">
             <div className=" weather-icon float-left">
-              <WeatherIcon code={props.data.icon} />
+              <WeatherIcon code={props.data.icon} size={64} />
             </div>
             <WeatherTemperature imperial={props.data.temperature} />
           </div>
@@ -27,7 +27,7 @@ export default function WeatherInfo(props) {
 
         <br />
         <div className="col-6 ms-auto">
-          <ul>
+          <ul className="">
             {" "}
             <li>Feels like: {Math.round(props.data.feelslike)}°</li>
             <li> Humidity: {props.data.humidity}%</li>
