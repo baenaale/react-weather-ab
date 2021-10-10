@@ -55,9 +55,6 @@ export default function Current(props) {
           <button className="btn search-button" type="submit">
             Search
           </button>
-          <span href="#" className="current-button btn text-center">
-            📍
-          </span>
         </form>
         <WeatherInfo data={weatherData} />
         <WeatherForecast coordinates={weatherData.coordinates} />
